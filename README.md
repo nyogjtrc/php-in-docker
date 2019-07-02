@@ -7,6 +7,12 @@ set up nginx + php + mysql environment in docker
 - docker
 - docker-compose
 
+setting `/etc/hosts`:
+
+```hosts
+127.0.0.1 php-docker.test
+```
+
 ## How to run
 
 start service:
